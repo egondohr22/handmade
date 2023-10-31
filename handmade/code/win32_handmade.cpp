@@ -6,5 +6,6 @@ int CALLBACK WinMain(
   LPSTR lpCmdLine,
   int nCmdShow
 ) {
+  MessageBoxA(0, "Test Text", "Test Title", MB_OK|MB_ICONINFORMATION);
   return 0;
 }
